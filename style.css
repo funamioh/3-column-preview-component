@@ -1,0 +1,130 @@
+body {
+  font-family: "Lexend Deca";
+  background-color: hsl(0, 0%, 95%);
+}
+.attribution {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  width: 72%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.card-image {
+  margin: 0px 0px 0px 18px;
+}
+
+.card-title {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  padding: 30px 0 25px 18px;
+}
+
+.card-description {
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 28px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2.8rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2.8rem;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2.8rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+button {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 95%);
+  padding: 14px 30px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  margin-left: 16px;
+}
+.sedans button{
+  color: hsl(31, 77%, 52%);
+  
+  border: solid 2px hsl(31, 77%, 52%);
+  
+  border-radius: 25px;
+}
+.suvs button {
+  color: hsl(184, 100%, 22%);
+  
+  border: solid 2px hsl(184, 100%, 22%);
+  
+  border-radius: 25px;
+}
+.luxury button {
+  color: hsl(179, 100%, 13%);
+  
+  border: solid 2px hsl(179, 100%, 13%);
+  
+  border-radius: 25px;
+}
+.sedans button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  border: solid 2px hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.suvs button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  border: solid 2px hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+.luxury button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  border: solid 2px hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sedans {
+    border-radius: 8px 8px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 8px 8px;
+  }
+  .card-description {
+    margin-top: 2rem;
+  }
+  button {
+    margin-top: 2rem;
+  }
+  .attribution {
+    display: block;
+  }
+}
