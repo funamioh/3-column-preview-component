@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-
 body {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   background-color: hsl(0, 0%, 95%);
 }
 .attribution {
@@ -21,7 +19,7 @@ body {
 }
 
 .card-title {
-  font-family: "Big Shoulders Display", sans-serif;
+  font-family: 'Big Shoulders Display', sans-serif;
   font-weight: 700;
   font-size: 40px;
   color: hsl(0, 0%, 95%);
@@ -29,6 +27,7 @@ body {
 }
 
 .card-description {
+  font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 28px;
@@ -53,7 +52,7 @@ body {
 
 }
 button {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
   font-weight: 400;
   background-color: hsl(0, 0%, 95%);
